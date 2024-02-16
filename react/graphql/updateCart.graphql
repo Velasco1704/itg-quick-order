@@ -1,0 +1,12 @@
+mutation UPDATE_CART($items: [ItemInput], $salesChannel: String) {
+  addToCart(items: $items, salesChannel: $salesChannel) {
+    id
+  }
+}
+# addToCart(
+# orderFormId: ID
+# items: [ItemInput]
+# marketingData: MarketingDataInput
+# salesChannel: String
+# allowedOutdatedData: [String!]
+# ): OrderForm!
