@@ -1,4 +1,4 @@
-# Custom Department Search
+# Quick Order
 
 Este componente se encarga de renderizar un input que permitirá hacer una compra rápida.
 
